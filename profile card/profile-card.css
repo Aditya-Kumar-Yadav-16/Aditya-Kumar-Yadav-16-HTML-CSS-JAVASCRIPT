@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(11, 130, 234);
+}
+.profile-card {
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    padding: 3px;
+}
+.adit-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 2px solid white;
+}
