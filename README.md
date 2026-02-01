@@ -63,3 +63,5 @@ Qs9. Set the poem’s line-height to 30px.
 
 Qs10. Underline only the word Ozymandias inside the poem
 
+CSS (part-2)
+Practics Question
