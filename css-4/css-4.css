@@ -5,14 +5,14 @@
     transition: width 2s ease-in 0.5s;
 }
 #box1:hover {
-    width: 600px;
+    width: 500px;
 }
 #box2 {
     width: 100px;
     height: 100px;
     background-color: red;
     transform: translate(200px , 100px) rotate(90deg);
-    box-shadow: 2px 2px 5px green;
+    box-shadow: 5px 5px 5px  green;
 
 }
 #box3 {
@@ -32,6 +32,6 @@
     width: 15em;
     height: 15em;
     background-image: url("aditya.jpg");
-    background-size: cover;
+    background-size:contain;
     opacity: 0.8;
 }
