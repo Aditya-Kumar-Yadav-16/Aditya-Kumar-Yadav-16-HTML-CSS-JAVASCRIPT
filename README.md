@@ -1,175 +1,168 @@
-HTML (Level 1)
-Practice Questions
+# 🌐 HTML, CSS & JavaScript Practice Questions
 
-Qs1. Use the correct HTML tag to add a paragraph with the text "Hello World!"
+This repository contains a curated collection of **HTML, CSS, and basic JavaScript practice questions** designed to strengthen front-end development skills from beginner to intermediate level.
 
-Qs2. Mark up the text with appropriate tags:
-"Delta” is the most important heading.
-"Full Stack Web Development" is the next most important heading.
-"MERN Stack" is the third most important heading.
-The last sentence is just a paragraph.
-Start with the most important heading (the largest) and end with the least
-important heading (the smallest).
+---
 
-Qs3. Create a clickable link that redirects to the url : https://www.apnacollege.in/
+## 📌 About This Repository
 
-Qs4. You are given the rank list of few students, create an ordered HTML list to display
-the list given below :
-1. Deepak
-2. Epsita
-3. Lakshita
-4. Tanmay
-5. Agrim
+This repo is created to:
 
-Qs5. Reading about these topics on mdn:
-- Hr Tag in HTML
-- HTML Entities
+* Practice core **web development fundamentals**
+* Build strong understanding of **HTML structure**
+* Improve styling using **CSS (Selectors, Layout, Flex, etc.)**
+* Prepare for **placements & interviews**
 
-HTML (level 2)
-Practics Question
+---
 
-Qs1. Print the following using HTML tags :
-Today is 9th October and 2^4= 16
+## 📚 Topics Covered
 
-Qs2. Print the symbols for copyright & trademark on your webpage.
+### 🧱 HTML
 
-HTML (level 3)
-Practics Question
+* Basic Tags & Structure
+* Headings, Paragraphs, Links
+* Lists & Tables
+* Forms
+* HTML Entities
 
-Qs1. Recreate the following table using HTML :
+### 🎨 CSS
 
-Qs2. Recreate the following form using HTML : 
+* Inline, Internal, External Styling
+* Selectors (Universal, Class, ID)
+* Box Model
+* Display Properties
+* Positioning
+* Pseudo-classes & Pseudo-elements
+* Transforms & Transitions
 
-CSS (part-1)
-Practics Question
+### ⚡ JavaScript (Basics)
 
-Qs1. Set the background page to color “wheat”, by using an inline style.
+* DOM Manipulation *(optional future extension)*
 
-Qs2. Change the color of the poem in the page to brown (use the hex code for color).
+---
 
-Qs3. Align all the headings & the poem to the center of the poge.
+## 📝 Practice Questions
 
-Qs4. Change the color of the poem to red & the poet’s name to black.
+### 🔹 HTML Level 1
 
-Qs5. Change the font of the entire document to the font - Georgia.
+* Paragraph creation
+* Heading hierarchy
+* Links
+* Ordered Lists
 
-Qs6. Set the color of the Wikipedia link to green & remove its underline (use the rgb
-value for color).
-Qs7. Change the button background color to white & button text to blueviolet.
+### 🔹 HTML Level 2
 
-Qs8. What is the hex code for black color? Set the textarea font color to black.
+* Superscript formatting
+* HTML Entities (©, ™)
 
-Qs9. Set the poem’s line-height to 30px.
+### 🔹 HTML Level 3
 
-Qs10. Underline only the word Ozymandias inside the poem
+* Tables
+* Forms
 
-CSS (part-2)
-Practics Question
-PART A (Selectors)
+---
 
-Qs1. Give the h1 header a unique id - “mainTopic” & set its color to blue using the id
-selector.
+### 🔹 CSS Part 1
 
-Qs2. Align all the text in the page to the center using a universal selector.
+* Colors & Background
+* Alignment
+* Fonts
+* Text styling
 
-Qs3. Change the font style of all heading tags in the page to ‘Georgia’.
+### 🔹 CSS Part 2
 
-Qs4. Set the color of all the paragraphs to white & background color to cornflowerblue.
-(Without using the element selector - ‘p’)
+#### Selectors
 
-Qs5. Select all buttons inside div and change their background color to purple & text
-color to azure.
+* ID, Class, Universal selectors
 
-PART B (Pseduo class & elements)
+#### Pseudo Classes & Elements
 
-Qs6. Change the button background color to yellow & text color to blue when we hover
-over it.
+* Hover effects
+* nth-child
+* First-letter styling
 
-Qs7. Change the color of every odd numbered paragraph to yellow. (Paragraph 1 & 3)
+---
 
-Qs8. Change the color of the first letter of h1 heading to red.
+### 🔹 CSS Part 3
 
-Qs9. Set the text color of the checkbox label to dark green when the checkbox is
-ticked.
+* Box Model
+* Margins & Padding
+* Shapes (Circle)
+* Inline elements
 
-Qs10. Order these rules according to their specificity, from least specific to most
-specific. :
-- h1
-- #mainContent
-- .main
-- div .main
+---
 
-CSS (part-3)
-Practics Question
+### 🔹 CSS Part 4
 
-Qs1. Create a box using div. Set
-- Its height to 150px, width to 300px and the background color to grey.
-- Border to a 5px, black, dotted border.
-- A top margin of 20px.
-- A right margin of 1em.
-- A bottom margin of 40px.
-- A left margin of 2em.
-- Padding on all sides of 1em.
+* Transitions
+* Transform (Rotate, Skew, Translate)
+* Box Shadow
+* Opacity
 
-Qs2. Create 3 divs with the following properties
-- Height & Width of 100px
-- Background color to pink
-- Border to 2px solid black
-- Make this div in the shape of circle
-- Place all the 3 divs in a single line
+---
 
-Qs3. Create a list of technologies - HTML, CSS, JavaScript, NodeJS, ReactJS, SQL,
-MongoDB, Java, C++, C & Python.
-Now change the display of all list items to inline to move them all in a single line.
+## 🚀 How to Use
 
+1. Clone the repository:
 
-CSS (part-4)
-Practics Question
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
 
-/* Qs1. Add a 2s transition on box1 for width changes.
-       It should have 'ease-in' speed curve & 0.5s delay  */
+2. Open files in any browser or code editor like VS Code.
 
-#box1 {
-  width: 100px;
-  height: 100px;
-  background: green;
-}
+3. Solve each question by creating separate `.html` or `.css` files.
 
-#box1:hover {
-  width: 600px;
-}
+---
 
-/* Qs2. Using transform, move box2 200px to the right  & 
-        200px down. Also rotate it 90deg.*/
+## 📂 Suggested Folder Structure
 
-#box2 {
-  width: 100px;
-  height: 100px;
-  background: red;
-}
+```
+📁 html-css-practice
+ ┣ 📁 HTML
+ ┃ ┣ level1.html
+ ┃ ┣ level2.html
+ ┃ ┗ level3.html
+ ┣ 📁 CSS
+ ┃ ┣ part1.css
+ ┃ ┣ part2.css
+ ┃ ┗ part3.css
+ ┗ README.md
+```
 
-/* Qs3. Using transform, skew box3 20deg along the x axis.*/
+---
 
-#box3 {
-  width: 100px;
-  height: 100px;
-  background: lightblue;
-}
+## 🎯 Who Should Use This?
 
-/* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
-        for box4, with a 5px blur radius.*/
+* Beginners learning web development
+* Students preparing for placements
+* Anyone revising HTML & CSS basics
 
-#box4 {
-  width: 100px;
-  height: 100px;
-  background: lightgreen;
-}
+---
 
-/* Qs5. Set Your picture or any picture as the background of the div
-        "myPic". Also, set transparency of this div to 50%. */
+## ⭐ Future Improvements
 
-#myPic {
-  width: 200px;
-  height: 200px;
-  background: pink;
-}
+* Add solutions for each question
+* Add mini projects (Portfolio, Landing Page)
+* Add JavaScript DOM questions
+* Add screenshots of output
+
+---
+
+## 🙌 Contribution
+
+Feel free to fork this repository and contribute by:
+
+* Adding more questions
+* Improving solutions
+* Enhancing UI examples
+
+---
+
+## 📌 Author
+
+Aditya Yadav
+
+---
+
+⭐ If you found this helpful, don’t forget to star the repo!
